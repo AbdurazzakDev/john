@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Heebo", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+#header {
+  padding: 20px 0;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 50px 0 0;
+}
+#hero {
+  margin-top: 158px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero_content .title {
+  width: 506px;
+  height: 105px;
+  font-size: 44px;
+  font-weight: 700;
+}
+.hero_content .text {
+  margin-top: 40px;
+  width: 497px;
+  height: 66px;
+  font-weight: 400;
+}
+.hero_content button {
+  margin-top: 38px;
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
+  background: var(--primary, #ff6464);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+}
+#post {
+  margin-top: 71px;
+  padding: 80px 0;
+  background: #edf7fa;
+}
+.post_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post_top h2 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.post_top h4 {
+  color: var(--secondry, #00a8cc);
+  font-size: 16px;
+  font-weight: 400;
+}
+.post_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post_block {
+  background-color: #fff;
+  width: 418px;
+  height: 295px;
+  padding: 20px;
+  border-radius: 4px;
+}
+.post_block h2 {
+  margin-top: 24px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.post_block .text1 {
+  width: 374px;
+  height: 34px;
+  margin-top: 17px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.post_block p {
+  margin-top: 11px;
+  width: 368px;
+  height: 117px;
+  font-size: 18px;
+  line-height: normal;
+}
+.featured {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.work {
+  margin: 20px 0;
+  display: flex;
+  align-items: flex-start;
+}
+.work_info {
+  margin-left: 20px;
+}
+.work_year {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.work_year h4 {
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  background: #142850;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+}
+.work_year h3 {
+  color: var(--light, #8695a4);
+}
+.work_info p {
+  margin-top: 22px;
+  font-size: 20px;
+  font-weight: 400;
+}
